@@ -1,13 +1,12 @@
-package com.yourname.yourmodid.events;
+package com.lipn.drugs_are_good.events;
 
 
-import com.yourname.yourmodid.YourModID;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.living.LivingDamageEvent;
 
-@EventBusSubscriber(modid = YourModID.MOD_ID, bus = EventBusSubscriber.Bus.GAME)
-public class YMIEvents {
+@EventBusSubscriber(modid = com.lipn.drugs_are_good.DrugsAreGood.MOD_ID, bus = EventBusSubscriber.Bus.GAME)
+public class DAGEvents {
 
     @SubscribeEvent
     public static void doAThing(LivingDamageEvent.Pre event) {
