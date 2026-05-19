@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:sugar"
+    ],
+    [
+      "minecraft:fermented_spider_eye"
+    ],
+    [
+      "minecraft:glowstone_dust"
+    ],
+    [
+      "minecraft:fermented_spider_eye"
+    ],
+    [
+      "minecraft:blaze_powder"
+    ],
+    [
+      "minecraft:fermented_spider_eye"
+    ],
+    [
+      "minecraft:gunpowder"
+    ],
+    [
+      "minecraft:fermented_spider_eye"
+    ],
+    [
+      "minecraft:sugar"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:drugs_are_good",
+    "components": {},
+    "count": 3
+  }
+}
