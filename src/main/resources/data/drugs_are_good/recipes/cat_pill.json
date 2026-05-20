@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:sugar"
+    ],
+    [
+      "minecraft:salmon"
+    ],
+    [
+      "minecraft:glowstone_dust"
+    ],
+    [
+      "minecraft:porkchop"
+    ],
+    [
+      "minecraft:fermented_spider_eye"
+    ],
+    [
+      "minecraft:chicken"
+    ],
+    [
+      "minecraft:dragon_breath"
+    ],
+    [
+      "minecraft:beef"
+    ],
+    [
+      "minecraft:sugar"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:CAT_PILL",
+    "components": {},
+    "count": 3
+  }
+}
