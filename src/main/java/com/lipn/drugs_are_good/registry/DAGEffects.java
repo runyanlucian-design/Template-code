@@ -19,8 +19,16 @@ public class DAGEffects {
     public static final Holder<MobEffect> STEROID = MOB_EFFECTS.register("roids",
             () -> new Steriod(MobEffectCategory.NEUTRAL, 0x947726)
     .addAttributeModifier(Attributes.ATTACK_DAMAGE,
-                          ResourceLocation.fromNamespaceAndPath(DrugsAreGood.MOD_ID, "roids"), 0.3f,
+                        ResourceLocation.fromNamespaceAndPath(DrugsAreGood.MOD_ID, "roids"), 0.3f,
             AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
+    public static final Holder<MobEffect> PAINKILLER = MOB_EFFECTS.register("painkiller",
+            () -> new Steriod(MobEffectCategory.NEUTRAL, 0xFF0099FF)
+    .addAttributeModifier(Attributes.MAX_HEALTH,
+                        ResourceLocation.fromNamespaceAndPath(DrugsAreGood.MOD_ID, "painkiller"), 1f,
+            AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
+    public static final Holder<MobEffect> CATPILL = MOB_EFFECTS.register("catpill",
+            () -> new Steriod(MobEffectCategory.NEUTRAL, 0xffff9900));
+
 
     public static void  register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
