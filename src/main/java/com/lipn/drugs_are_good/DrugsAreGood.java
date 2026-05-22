@@ -14,7 +14,7 @@ import net.neoforged.fml.common.Mod;
 
 import static com.lipn.drugs_are_good.registry.DAGEffects.MOB_EFFECTS;
 
-@Mod(com.lipn.drugs_are_good.DrugsAreGood.MOD_ID)
+@Mod(DrugsAreGood.MOD_ID)
 public class DrugsAreGood {
     public static final String MOD_ID = "drugs_are_good";
     private static final Logger LOGGER = LogUtils.getLogger();

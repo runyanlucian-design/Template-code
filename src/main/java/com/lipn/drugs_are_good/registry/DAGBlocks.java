@@ -1,5 +1,6 @@
 package com.lipn.drugs_are_good.registry;
 
+import com.lipn.drugs_are_good.DrugsAreGood;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -9,7 +10,7 @@ import java.util.function.Supplier;
 
 public class DAGBlocks {
 
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(com.lipn.drugs_are_good.DrugsAreGood.MOD_ID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(DrugsAreGood.MOD_ID);
 
     //Blocks go here
 

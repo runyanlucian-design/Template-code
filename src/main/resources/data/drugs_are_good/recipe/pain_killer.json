@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
     {
@@ -51,7 +51,7 @@
     }
   ],
   "result": {
-    "id": "minecraft:MOD_ID3",
+    "id": "drugs_are_good:pain_killer",
     "components": {},
     "count": 3
   }

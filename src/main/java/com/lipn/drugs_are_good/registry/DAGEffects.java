@@ -1,8 +1,6 @@
 package com.lipn.drugs_are_good.registry;
 
 import com.lipn.drugs_are_good.DrugsAreGood;
-import com.lipn.drugs_are_good.effects.Catpill;
-import com.lipn.drugs_are_good.effects.Painkiller;
 import com.lipn.drugs_are_good.effects.Steriod;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -18,18 +16,18 @@ public class DAGEffects {
     public static final DeferredRegister<MobEffect> MOB_EFFECTS =
             DeferredRegister.create(BuiltInRegistries.MOB_EFFECT, DrugsAreGood.MOD_ID);
 
-    public static final Holder<MobEffect> STEROID = MOB_EFFECTS.register("steroid",
+    public static final Holder<MobEffect> STEROID = MOB_EFFECTS.register("roids",
             () -> new Steriod(MobEffectCategory.NEUTRAL, 0x947726)
     .addAttributeModifier(Attributes.ATTACK_DAMAGE,
-                        ResourceLocation.fromNamespaceAndPath(DrugsAreGood.MOD_ID, "steroid"), 0.3f,
+                        ResourceLocation.fromNamespaceAndPath(DrugsAreGood.MOD_ID, "roids"), 0.3f,
             AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
     public static final Holder<MobEffect> PAINKILLER = MOB_EFFECTS.register("painkiller",
-            () -> new Painkiller(MobEffectCategory.NEUTRAL, 0xFF0099FF)
+            () -> new Steriod(MobEffectCategory.NEUTRAL, 0xFF0099FF)
     .addAttributeModifier(Attributes.MAX_HEALTH,
                         ResourceLocation.fromNamespaceAndPath(DrugsAreGood.MOD_ID, "painkiller"), 1f,
             AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
     public static final Holder<MobEffect> CATPILL = MOB_EFFECTS.register("catpill",
-            () -> new Catpill(MobEffectCategory.NEUTRAL, 0xffff9900));
+            () -> new Steriod(MobEffectCategory.NEUTRAL, 0xffff9900));
 
 
     public static void  register(IEventBus eventBus) {
