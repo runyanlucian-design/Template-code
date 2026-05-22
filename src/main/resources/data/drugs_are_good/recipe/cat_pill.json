@@ -1,37 +1,37 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
     [
       "minecraft:sugar"
     ],
     [
-      "minecraft:fermented_spider_eye"
+      "minecraft:salmon"
     ],
     [
       "minecraft:glowstone_dust"
     ],
     [
-      "minecraft:fermented_spider_eye"
-    ],
-    [
-      "minecraft:blaze_powder"
+      "minecraft:porkchop"
     ],
     [
       "minecraft:fermented_spider_eye"
     ],
     [
-      "minecraft:gunpowder"
+      "minecraft:chicken"
     ],
     [
-      "minecraft:fermented_spider_eye"
+      "minecraft:dragon_breath"
+    ],
+    [
+      "minecraft:beef"
     ],
     [
       "minecraft:sugar"
     ]
   ],
   "result": {
-    "id": "minecraft:STEROID",
+    "id": "drugs_are_good:cat_pill",
     "components": {},
     "count": 3
   }

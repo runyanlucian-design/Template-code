@@ -1,5 +1,6 @@
 package com.lipn.drugs_are_good.registry;
 
+import com.lipn.drugs_are_good.DrugsAreGood;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -7,7 +8,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class DAGItems {
 
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(com.lipn.drugs_are_good.DrugsAreGood.MOD_ID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(DrugsAreGood.MOD_ID);
 
     //Items go here
     public static final DeferredItem<Item> CAT_PILL = ITEMS.register("cat_pill", () -> new Item(new Item.Properties()));

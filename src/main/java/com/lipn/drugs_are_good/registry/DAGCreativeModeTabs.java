@@ -1,5 +1,6 @@
 package com.lipn.drugs_are_good.registry;
 
+import com.lipn.drugs_are_good.DrugsAreGood;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
 import net.neoforged.bus.api.IEventBus;
@@ -7,7 +8,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class DAGCreativeModeTabs {
 
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, com.lipn.drugs_are_good.DrugsAreGood.MOD_ID);
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DrugsAreGood.MOD_ID);
 
     //Creative mode tabs go here
 

@@ -1,0 +1,6 @@
+{
+  "parent": "drugs_are_good:item/generated",
+  "textures": {
+    "layer0": "drugs_are_good:item/cat_pill"
+  }
+}
