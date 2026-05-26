@@ -2,33 +2,33 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
-      "minecraft:sugar"
-    ],
-    [
-      "minecraft:salmon"
-    ],
-    [
-      "minecraft:glowstone_dust"
-    ],
-    [
-      "minecraft:porkchop"
-    ],
-    [
-      "minecraft:fermented_spider_eye"
-    ],
-    [
-      "minecraft:chicken"
-    ],
-    [
-      "minecraft:dragon_breath"
-    ],
-    [
-      "minecraft:beef"
-    ],
-    [
-      "minecraft:sugar"
-    ]
+    {
+    "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
   ],
   "result": {
     "id": "drugs_are_good:cat_pill",
