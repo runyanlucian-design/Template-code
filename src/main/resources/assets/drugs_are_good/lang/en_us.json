@@ -1,7 +1,9 @@
 {
   "itemGroup.examplemod": "Example Mod Tab",
   "block.examplemod.example_block": "Example Block",
-  "item.examplemod.example_item": "Example Item",
+  "item.drugs_are_good.cat_pill": "Cat Pill",
+  "item.drugs_are_good.pain_killer": "Pain Killers",
+  "item.drugs_are_good.steroid": "Steroids",
   "effect.drugs_are_good.steroid": "Steroid",
   "effect.drugs_are_good.painkiller": "Painkiller",
   "effect.drugs_are_good.catpill": "Cat"
