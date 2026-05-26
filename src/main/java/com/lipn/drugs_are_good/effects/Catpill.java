@@ -14,6 +14,7 @@ public class Catpill extends MobEffect {
         return super.applyEffectTick(livingEntity, amplifier);
     }
 
+
     @Override
     public boolean shouldApplyEffectTickThisTick(int duration, int amplifier) {
         return true;
